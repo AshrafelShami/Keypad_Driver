@@ -43,8 +43,8 @@
 #define Line3_PullUP	PORTC
 
 #define Check_ALL_Lines		 (((Line0_PIN & (1 << Line0)) >> Line0)\
-							 &((Line1_PIN & (1 << Line1)) >> Line1)\
-							 &((Line2_PIN & (1 << Line2)) >> Line2)\
-							 &((Line3_PIN & (1 << Line3)) >> Line3))
+				 &((Line1_PIN & (1 << Line1)) >> Line1)\
+				 &((Line2_PIN & (1 << Line2)) >> Line2)\
+				 &((Line3_PIN & (1 << Line3)) >> Line3))
 							 
 #endif /* KEYPAD_COMFIG_H_ */
