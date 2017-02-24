@@ -25,22 +25,22 @@
 #define Line0			4
 #define Line0_DDR		DDRC
 #define Line0_PIN		PINC
-#define Line0_PullUP	PORTC
+#define Line0_PullUP		PORTC
 
 #define Line1			5
 #define Line1_DDR		DDRC
 #define Line1_PIN		PINC
-#define Line1_PullUP	PORTC
+#define Line1_PullUP		PORTC
 
 #define Line2			6
 #define Line2_DDR		DDRC
 #define Line2_PIN		PINC
-#define Line2_PullUP	PORTC
+#define Line2_PullUP		PORTC
 
 #define Line3			7
 #define Line3_DDR		DDRC
 #define Line3_PIN		PINC
-#define Line3_PullUP	PORTC
+#define Line3_PullUP		PORTC
 
 #define Check_ALL_Lines		 (((Line0_PIN & (1 << Line0)) >> Line0)\
 				 &((Line1_PIN & (1 << Line1)) >> Line1)\
